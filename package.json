@@ -1,0 +1,46 @@
+{
+  "name": "consequaturlaboriosam",
+  "version": "1.0.0",
+  "description": "Provides execution context wrapper for node JS, can be used to create execution wrapper for handling requests and more",
+  "author": "RethaSchneider",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FeliciaDeckow/consequaturlaboriosam.git"
+  },
+  "main": "dist/index.js",
+  "types": "src/types.d.ts",
+  "scripts": {
+    "test": "jest -c configuration/jest.config.js",
+    "lint": "eslint .",
+    "build": "webpack --config configuration/webpack.config",
+    "publish-package": "npm run build && npm publish"
+  },
+  "keywords": [
+    "et",
+    "dolore",
+    "rerum",
+    "aut"
+  ],
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/FeliciaDeckow/consequaturlaboriosam.git/issues"
+  }
+}
